@@ -1,0 +1,14 @@
+docker tag containerid yourhubusername/tagname
+docker run -ti -d ubuntu
+docker ps -a
+docker exec -it 234e147852 bash
+docker images
+docker stop
+docker commit containerid muni1270/ubuntu
+docker tag containerid yourhubusername/tagname
+docker images
+docker push muni1270/myubuntu
+==============
+docker registry
+===============
+
